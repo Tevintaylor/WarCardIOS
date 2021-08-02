@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF222B77243D8DF8006447EF /* loose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF222B70243D8DF7006447EF /* loose.mp3 */; };
+		DF222B78243D8DF8006447EF /* tie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF222B71243D8DF7006447EF /* tie.mp3 */; };
+		DF222B79243D8DF8006447EF /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF222B72243D8DF8006447EF /* win.mp3 */; };
+		DF222B7A243D8DF8006447EF /* win_card_two.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF222B73243D8DF8006447EF /* win_card_two.mp3 */; };
+		DF222B7B243D8DF8006447EF /* win_card.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF222B74243D8DF8006447EF /* win_card.mp3 */; };
+		DF222B7C243D8DF8006447EF /* deal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF222B75243D8DF8006447EF /* deal.mp3 */; };
+		DF222B7D243D8DF8006447EF /* loose_card.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF222B76243D8DF8006447EF /* loose_card.mp3 */; };
+		DF7BEFFA241393F700F40950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BEFF9241393F700F40950 /* AppDelegate.swift */; };
+		DF7BEFFC241393F700F40950 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BEFFB241393F700F40950 /* SceneDelegate.swift */; };
+		DF7BEFFE241393F700F40950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BEFFD241393F700F40950 /* ViewController.swift */; };
+		DF7BF001241393F700F40950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7BEFFF241393F700F40950 /* Main.storyboard */; };
+		DF7BF003241393FB00F40950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7BF002241393FB00F40950 /* Assets.xcassets */; };
+		DF7BF006241393FB00F40950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7BF004241393FB00F40950 /* LaunchScreen.storyboard */; };
+		DF9B14D82414CCAF00EDB20F /* me-too.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF9B14D72414CCAF00EDB20F /* me-too.mp3 */; };
+		DF9B14DC2414DBEB00EDB20F /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9B14DB2414DBEB00EDB20F /* PopUpWindow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF222B70243D8DF7006447EF /* loose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loose.mp3; sourceTree = "<group>"; };
+		DF222B71243D8DF7006447EF /* tie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tie.mp3; sourceTree = "<group>"; };
+		DF222B72243D8DF8006447EF /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		DF222B73243D8DF8006447EF /* win_card_two.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win_card_two.mp3; sourceTree = "<group>"; };
+		DF222B74243D8DF8006447EF /* win_card.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win_card.mp3; sourceTree = "<group>"; };
+		DF222B75243D8DF8006447EF /* deal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = deal.mp3; sourceTree = "<group>"; };
+		DF222B76243D8DF8006447EF /* loose_card.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loose_card.mp3; sourceTree = "<group>"; };
+		DF7BEFF6241393F700F40950 /* WarCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7BEFF9241393F700F40950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF7BEFFB241393F700F40950 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF7BEFFD241393F700F40950 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF7BF000241393F700F40950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF7BF002241393FB00F40950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7BF005241393FB00F40950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF7BF007241393FB00F40950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9B14D72414CCAF00EDB20F /* me-too.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "me-too.mp3"; sourceTree = "<group>"; };
+		DF9B14DB2414DBEB00EDB20F /* PopUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWindow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7BEFF3241393F700F40950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7BEFED241393F700F40950 = {
+			isa = PBXGroup;
+			children = (
+				DF7BEFF8241393F700F40950 /* WarCard */,
+				DF7BEFF7241393F700F40950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7BEFF7241393F700F40950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BEFF6241393F700F40950 /* WarCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7BEFF8241393F700F40950 /* WarCard */ = {
+			isa = PBXGroup;
+			children = (
+				DF9B14D62414CC9300EDB20F /* Sounds */,
+				DF7BEFF9241393F700F40950 /* AppDelegate.swift */,
+				DF7BEFFB241393F700F40950 /* SceneDelegate.swift */,
+				DF7BEFFD241393F700F40950 /* ViewController.swift */,
+				DF7BEFFF241393F700F40950 /* Main.storyboard */,
+				DF7BF002241393FB00F40950 /* Assets.xcassets */,
+				DF7BF004241393FB00F40950 /* LaunchScreen.storyboard */,
+				DF7BF007241393FB00F40950 /* Info.plist */,
+				DF9B14DB2414DBEB00EDB20F /* PopUpWindow.swift */,
+			);
+			path = WarCard;
+			sourceTree = "<group>";
+		};
+		DF9B14D62414CC9300EDB20F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DF222B75243D8DF8006447EF /* deal.mp3 */,
+				DF222B76243D8DF8006447EF /* loose_card.mp3 */,
+				DF222B70243D8DF7006447EF /* loose.mp3 */,
+				DF222B71243D8DF7006447EF /* tie.mp3 */,
+				DF222B73243D8DF8006447EF /* win_card_two.mp3 */,
+				DF222B74243D8DF8006447EF /* win_card.mp3 */,
+				DF222B72243D8DF8006447EF /* win.mp3 */,
+				DF9B14D72414CCAF00EDB20F /* me-too.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7BEFF5241393F700F40950 /* WarCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7BF00A241393FB00F40950 /* Build configuration list for PBXNativeTarget "WarCard" */;
+			buildPhases = (
+				DF7BEFF2241393F700F40950 /* Sources */,
+				DF7BEFF3241393F700F40950 /* Frameworks */,
+				DF7BEFF4241393F700F40950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarCard;
+			productName = WarCard;
+			productReference = DF7BEFF6241393F700F40950 /* WarCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7BEFEE241393F700F40950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "UWICIIT-Admin";
+				TargetAttributes = {
+					DF7BEFF5241393F700F40950 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DF7BEFF1241393F700F40950 /* Build configuration list for PBXProject "WarCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7BEFED241393F700F40950;
+			productRefGroup = DF7BEFF7241393F700F40950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7BEFF5241393F700F40950 /* WarCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7BEFF4241393F700F40950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF222B7B243D8DF8006447EF /* win_card.mp3 in Resources */,
+				DF7BF006241393FB00F40950 /* LaunchScreen.storyboard in Resources */,
+				DF9B14D82414CCAF00EDB20F /* me-too.mp3 in Resources */,
+				DF222B79243D8DF8006447EF /* win.mp3 in Resources */,
+				DF7BF003241393FB00F40950 /* Assets.xcassets in Resources */,
+				DF222B78243D8DF8006447EF /* tie.mp3 in Resources */,
+				DF222B7C243D8DF8006447EF /* deal.mp3 in Resources */,
+				DF222B7D243D8DF8006447EF /* loose_card.mp3 in Resources */,
+				DF7BF001241393F700F40950 /* Main.storyboard in Resources */,
+				DF222B7A243D8DF8006447EF /* win_card_two.mp3 in Resources */,
+				DF222B77243D8DF8006447EF /* loose.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7BEFF2241393F700F40950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9B14DC2414DBEB00EDB20F /* PopUpWindow.swift in Sources */,
+				DF7BEFFE241393F700F40950 /* ViewController.swift in Sources */,
+				DF7BEFFA241393F700F40950 /* AppDelegate.swift in Sources */,
+				DF7BEFFC241393F700F40950 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF7BEFFF241393F700F40950 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7BF000241393F700F40950 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF7BF004241393FB00F40950 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7BF005241393FB00F40950 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF7BF008241393FB00F40950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7BF009241393FB00F40950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7BF00B241393FB00F40950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WarCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongwei.WarCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7BF00C241393FB00F40950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WarCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongwei.WarCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7BEFF1241393F700F40950 /* Build configuration list for PBXProject "WarCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7BF008241393FB00F40950 /* Debug */,
+				DF7BF009241393FB00F40950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7BF00A241393FB00F40950 /* Build configuration list for PBXNativeTarget "WarCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7BF00B241393FB00F40950 /* Debug */,
+				DF7BF00C241393FB00F40950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7BEFEE241393F700F40950 /* Project object */;
+}
